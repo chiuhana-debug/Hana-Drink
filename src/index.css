@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Playfair Display", Georgia, serif;
+    --font-body: "Montserrat", sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #1c1b1b;
+    background-color: #fcf9f8;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-display);
+  }
+}
+
+/* Fine Gold & Neutral Dividers */
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+.bg-gold-subtle {
+  background-color: rgba(197, 160, 89, 0.08);
+}
+
+/* Custom Fine Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fcf9f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d2c4bb;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #80756d;
+}
+
+/* Quiet luxury subtle shadow */
+.shadow-quiet {
+  box-shadow: 0 20px 40px -15px rgba(44, 30, 22, 0.06);
+}
+
+.shadow-drawer {
+  box-shadow: -10px 0 35px -5px rgba(44, 30, 22, 0.08);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Hana Drink",
+  "description": "High-end artisanal tea house and quiet luxury beverage ordering experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
